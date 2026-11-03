@@ -1,11 +1,11 @@
 # Vault Stream
 ## Enterprise Document and Notification Engine
 
-**Polygot Architecture:**
+**Polyglot Architecture:**
 * ***Frontend:*** React + TypeScript (Tested with Playwright)
 * ***API Gateway/Core Services:*** Node.js + Express.js (TypeScript)
 * ***Billing/Ledger Service:*** Java Spring Boot
-* ***Asyn Notification Worker:*** Python (Tested with Pytest)
+* ***Async Notification Worker:*** Python (Tested with Pytest)
 
 ### Distributed Document Vault
 
@@ -26,5 +26,5 @@
 * S3 Presigned URLs
 * Async Queue + Idempotency
 * DB Indexing + Locking
-* Sage pattern
+* Saga pattern
 * Automated Playwright/Pytest Pipeline
