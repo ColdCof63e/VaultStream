@@ -8,17 +8,18 @@
 * ***Asyn Notification Worker:*** Python (Tested with Pytest)
 
 ### Distributed Document Vault
+
 ### Billing Ledger 
 ### Event-Driven Notification Engine.
 
 ### System Architecture Design
-[React Client] 
+[```React Client] 
    ├── (1. Request Presigned URL) ──> [Node/Express Gateway] <── (Saga Tx) ──> [Spring Boot Billing]
    └── (2. Direct 2GB PUT Upload) ──> [S3 / MinIO Storage]
                                              │
                                       (3. S3 Event)
                                              ▼
-                                   [Redis / Message Queue] ──> [Python Notification Worker]
+                                   [Redis / Message Queue] ──> [Python Notification Worker]```
 
 #### Production Scenarios
 * Global Error Handling
